@@ -58,4 +58,4 @@ To stop the server, press `Ctrl + C` in the terminal. After you change `server.j
 
 ## Author
 
-Frank James
+Lucious Lokko
