@@ -5,7 +5,8 @@ A small full stack web app that asks five personality questions and gives you a 
 
 Built with plain HTML, CSS, and JavaScript on the front end and a Node.js server (no framework) on the back end.
 
-![Screenshot of the villain alias quiz](screenshot.png)
+<img width="1034" height="710" alt="Screenshot 2026-10-07 at 8 52 18 PM" src="https://github.com/user-attachments/assets/bd3710f8-5530-4866-b1c5-2d60269445ab" />
+
 
 ## How it works
 
