@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <h1>What's your superhero name</h1>
+    <form action = "submit" method = "POST">
+
+      <p>1. Where is your secret hideout</p>
+       <label>
+         <input type = "radio" name="quest_1" value="a" class="choices"> Penthouse</input>
+        <input type = "radio" name="quest_1" value="b" class="choices"> Abandoned factory</input>
+        <input type = "radio" name="quest_1" value="c" class="choices"> Underground lair</input>
+      </label>
+
+    <p>What Weapon would you Choose</p>
+      <label>
+        <input type = "radio" name="quest_2" value="a" class="choices">A perfect plan</input>
+        <input type = "radio" name="quest_2" value="b" class="choices"> Giant Fists</input>
+        <input type = "radio" name="quest_2" value="c" class="choices">Smoke bombs and tricks </input>
+      </label>
+
+      <p>How do you enter a room  </p>
+       <label>
+         <input type = "radio" name="quest_3" value="a" class="choices"> everyone was expecting</input>
+        <input type = "radio" name="quest_3" value="b" class="choices">Through the wall </input>
+        <input type = "radio" name="quest_3" value="c" class="choices">I was already there</input>
+      </label>
+
+       <p>your biggest weakness</p>
+       <label>
+         <input type = "radio" name="quest_4" value="a" class="choices">Overthinking</input>
+        <input type = "radio" name="quest_4" value="b" class="choices"> Anger Issues</input>
+        <input type = "radio" name="quest_4" value="c" class="choices">Gets tempted easily </input>
+      </label>
+
+  
+      <p>Sidekick of Choice </p>
+       <label>
+         <input type = "radio" name="quest_5" value="a" class="choices">robot butler</input>
+        <input type = "radio" name="quest_5" value="b" class="choices"> a dog </input>
+        <input type = "radio" name="quest_5" value="c" class="choices"> your mentee </input>
+      </label>
+
+    <button id="clickMe" type="button" name="button">Click Me</button>
+
+    <h3 id="result"> </h2>
+    </form>
+    <script  src="/js/main.js"></script>
+  </body>
+</html>
